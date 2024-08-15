@@ -1,5 +1,5 @@
 {
-  "name":"FLASH-MD",
+  "name":"babyfx",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":[
     "bot",
@@ -60,7 +60,7 @@
     "BOT_MODE":
     {
       "description":"put private  to put your bot on private mode or public to put it on public mod",
-      "value":"private",
+      "value":"public",
       "required":false
     }
         ,
@@ -85,14 +85,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "babyfx"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":false,
-    "value": "254751284190"
+    "value": "256761396309"
   },
     "WARN_COUNT":
   {
@@ -104,7 +104,7 @@
     {
       "desc": "Put on to allow the bot to chat with people who text you or put off if you don't want the bot to chat with people",
       "required": false, 
-       "value": "off" 
+       "value": "on" 
     }, 
   "STARTING_MESSAGE":
   {
